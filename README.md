@@ -22,7 +22,24 @@
 
 Ứng dụng tập trung vào việc giám sát thông số môi trường, quản lý thiết bị và lưu trữ lịch sử thao tác của người dùng.
 
-## 2. Chức năng chính
+## 2. Hình ảnh giao diện
+
+### Đăng nhập
+![Login](docs/screenshots/login.png)
+
+### Dashboard
+![Dashboard](docs/screenshots/dashboard.png)
+
+### Dữ liệu cảm biến
+![Data Sensor](docs/screenshots/data-sensor.png)
+
+### Lịch sử hoạt động
+![History](docs/screenshots/history.png)
+
+### Hồ sơ cá nhân
+![Profile](docs/screenshots/profile.png)
+
+## 3. Chức năng chính
 
 | Chức năng | Mô tả |
 |---|---|
@@ -59,7 +76,7 @@
 - Hiển thị thông tin người dùng.
 - Quản lý thông tin tài khoản.
 
-## 3. Thiết kế giao diện (Figma)
+## 4. Thiết kế giao diện (Figma)
 
 Giao diện Smart House được thiết kế trên Figma với phong cách hiện đại, sử dụng tông màu xanh dương, trắng và xám nhạt.
 
@@ -73,7 +90,7 @@ Bản thiết kế bao gồm 5 màn hình chính:
 
 🔗 **[XEM THIẾT KẾ SMART HOUSE TRÊN FIGMA](https://www.figma.com/design/nbfeTWeuq0GmdO0Smngt63/Untitled?node-id=0-1&t=EVBU6OxrgY1ts32l-1)**
 
-## 4. Công nghệ sử dụng
+## 5. Công nghệ sử dụng
 
 | Công nghệ | Vai trò |
 |---|---|
@@ -84,7 +101,7 @@ Bản thiết kế bao gồm 5 màn hình chính:
 | Canvas API | Hiển thị biểu đồ |
 | GitHub Pages | Triển khai website |
 
-## 5. Cấu trúc dự án
+## 6. Cấu trúc dự án
 
 ```text
 smart-house-iot/
@@ -101,7 +118,7 @@ smart-house-iot/
 └── .gitignore
 ```
 
-## 6. Hướng dẫn cài đặt
+## 7. Hướng dẫn cài đặt
 
 **Bước 1:** Sao chép mã nguồn:
 
@@ -113,7 +130,7 @@ git clone https://github.com/ducanh2909/smart-house-iot.git
 
 **Bước 3:** Mở file `index.html` bằng trình duyệt hoặc sử dụng tiện ích Live Server.
 
-## 7. Tài khoản trải nghiệm
+## 8. Tài khoản trải nghiệm
 
 | Thông tin | Giá trị |
 |---|---|
@@ -122,7 +139,7 @@ git clone https://github.com/ducanh2909/smart-house-iot.git
 
 Đây là tài khoản demo phục vụ việc trải nghiệm ứng dụng.
 
-## 8. Cơ chế hoạt động
+## 9. Cơ chế hoạt động
 
 - Dữ liệu cảm biến được mô phỏng tự động mỗi 3 giây bằng JavaScript.
 - Tài khoản và lịch sử thao tác được lưu trong LocalStorage.
@@ -130,7 +147,7 @@ git clone https://github.com/ducanh2909/smart-house-iot.git
 
 **Lưu ý:** Phiên bản hiện tại chưa kết nối trực tiếp với ESP8266 hoặc MQTT Broker. Dữ liệu cảm biến hiện là dữ liệu mô phỏng, không phải dữ liệu thu thập từ phần cứng thực tế.
 
-## 9. Định hướng phát triển
+## 10. Định hướng phát triển
 
 - Tích hợp ESP8266 / NodeMCU.
 - Kết nối cảm biến thực tế thông qua MQTT.
@@ -138,6 +155,6 @@ git clone https://github.com/ducanh2909/smart-house-iot.git
 - Hoàn thiện hệ thống phân quyền người dùng.
 - Bổ sung chức năng giám sát và thông báo theo thời gian thực.
 
-## 10. Giấy phép
+## 11. Giấy phép
 
 Dự án sử dụng giấy phép MIT License.
