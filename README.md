@@ -35,7 +35,6 @@ smart-house-html-css-js/
 - Data Sensor: lọc Nhiệt độ, Độ ẩm, Ánh sáng; tìm theo giá trị.
 - History Action: tìm theo ngày và thời gian.
 - Hai bảng hỗ trợ phân trang 5, 10, 20 dòng.
-- Profile hiển thị Trần Đức Anh và mã sinh viên B23DCAT019.
 - Dữ liệu tài khoản và lịch sử thao tác được lưu trong localStorage.
 
 ## Lưu ý
