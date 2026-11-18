@@ -1,42 +1,78 @@
-🏠 SMART HOUSE – HỆ THỐNG QUẢN LÝ NHÀ THÔNG MINH
-1. Giới thiệu dự án
-Smart House là ứng dụng web quản lý nhà thông minh, được xây dựng bằng HTML5, CSS3 và JavaScript thuần.
-Ứng dụng cung cấp giao diện giúp người dùng theo dõi các thông số môi trường, điều khiển thiết bị điện và quản lý lịch sử hoạt động trong nhà.
-Website: https://ducanh2909.github.io/smart-house-iot/
-Mã nguồn: https://github.com/ducanh2909/smart-house-iot
-2. Chức năng chính
-2.1. Đăng nhập và đăng ký
-Đăng nhập tài khoản.
-Đăng ký tài khoản mới.
-Quản lý thông tin người dùng.
-2.2. Dashboard – Bảng điều khiển
-Theo dõi nhiệt độ, độ ẩm và cường độ ánh sáng.
-Hiển thị dữ liệu cảm biến bằng biểu đồ.
-Điều khiển ba thiết bị:
-💡 Đèn.
-🌀 Quạt.
-❄️ Điều hòa.
-2.3. Data Sensor – Dữ liệu cảm biến
-Hiển thị danh sách dữ liệu cảm biến.
-Lọc dữ liệu theo loại cảm biến.
-Tìm kiếm dữ liệu theo giá trị.
-Phân trang với 5, 10 hoặc 20 bản ghi mỗi trang.
-2.4. History Action – Lịch sử hoạt động
-Ghi nhận các thao tác điều khiển thiết bị.
-Tìm kiếm lịch sử theo ngày và thời gian.
-Lọc các hoạt động đã thực hiện.
-2.5. Profile – Hồ sơ cá nhân
-Hiển thị thông tin người dùng.
-Quản lý thông tin tài khoản.
-3. Công nghệ sử dụng
-Công nghệ          Mục đích sử dụng
-HTML5              Xây dựng cấu trúc trang web
-CSS3               Thiết kế giao diện và bố cục
-JavaScript ES6     Xử lý logic và các chức năng
-LocalStorage       Lưu trữ tài khoản và lịch sử hoạt động
-Canvas API         Hiển thị biểu đồ dữ liệu cảm biến
-GitHub Pages       Triển khai website trực tuyến
-4. Cấu trúc thư mục
+
+# 🏠 SMART HOUSE
+### Hệ thống quản lý và điều khiển nhà thông minh
+
+Ứng dụng web mô phỏng hệ thống nhà thông minh, cho phép người dùng theo dõi dữ liệu môi trường, điều khiển thiết bị điện và quản lý lịch sử hoạt động.
+
+<p align="center">
+  <a href="https://ducanh2909.github.io/smart-house-iot/">
+    <strong>🌐 TRẢI NGHIỆM WEBSITE</strong>
+  </a>
+  |
+  <a href="https://github.com/ducanh2909/smart-house-iot">
+    <strong>📂 XEM MÃ NGUỒN</strong>
+  </a>
+</p>
+
+---
+
+## 1. Giới thiệu dự án
+
+**Smart House** được xây dựng bằng HTML5, CSS3 và JavaScript thuần, hướng đến việc mô phỏng giao diện quản lý và điều khiển các thiết bị trong một ngôi nhà thông minh.
+
+Ứng dụng tập trung vào việc giám sát thông số môi trường, quản lý thiết bị và lưu trữ lịch sử thao tác của người dùng.
+
+## 2. Chức năng chính
+
+| Chức năng | Mô tả |
+|---|---|
+| Đăng nhập / Đăng ký | Quản lý tài khoản người dùng |
+| Dashboard | Theo dõi thông số và điều khiển thiết bị |
+| Data Sensor | Xem, tìm kiếm và lọc dữ liệu cảm biến |
+| History Action | Theo dõi lịch sử hoạt động |
+| Profile | Hiển thị thông tin cá nhân |
+
+### Dashboard – Bảng điều khiển
+
+- Theo dõi nhiệt độ, độ ẩm và ánh sáng.
+- Hiển thị dữ liệu cảm biến bằng biểu đồ.
+- Điều khiển các thiết bị:
+  - 💡 Đèn
+  - 🌀 Quạt
+  - ❄️ Điều hòa
+
+### Data Sensor – Dữ liệu cảm biến
+
+- Hiển thị dữ liệu cảm biến.
+- Lọc theo loại cảm biến.
+- Tìm kiếm theo giá trị.
+- Phân trang 5, 10 hoặc 20 bản ghi.
+
+### History Action – Lịch sử hoạt động
+
+- Ghi nhận thao tác điều khiển thiết bị.
+- Tìm kiếm theo ngày và thời gian.
+- Theo dõi các hoạt động đã thực hiện.
+
+### Profile – Hồ sơ cá nhân
+
+- Hiển thị thông tin người dùng.
+- Quản lý thông tin tài khoản.
+
+## 3. Công nghệ sử dụng
+
+| Công nghệ | Vai trò |
+|---|---|
+| HTML5 | Xây dựng cấu trúc trang web |
+| CSS3 | Thiết kế giao diện và bố cục |
+| JavaScript ES6 | Xử lý chức năng và tương tác |
+| LocalStorage | Lưu trữ dữ liệu trên trình duyệt |
+| Canvas API | Hiển thị biểu đồ |
+| GitHub Pages | Triển khai website |
+
+## 4. Cấu trúc dự án
+
+```text
 smart-house-iot/
 │
 ├── css/
@@ -49,33 +85,45 @@ smart-house-iot/
 ├── README.md
 ├── LICENSE
 └── .gitignore
-5. Hướng dẫn cài đặt và sử dụng
-Bước 1: Tải mã nguồn
+```
+
+## 5. Hướng dẫn cài đặt
+
+**Bước 1:** Sao chép mã nguồn:
+
+```bash
 git clone https://github.com/ducanh2909/smart-house-iot.git
-Bước 2: Mở thư mục dự án
-Sử dụng Visual Studio Code để mở thư mục smart-house-iot.
-Bước 3: Khởi chạy ứng dụng
-Mở trực tiếp file index.html bằng trình duyệt Chrome, Edge hoặc Firefox.
-Hoặc sử dụng tiện ích Live Server trong Visual Studio Code để chạy ứng dụng.
-6. Tài khoản dùng thử
-Thông tin   Giá trị
+```
 
-Email       anh@smarthouse.local
+**Bước 2:** Mở thư mục dự án bằng Visual Studio Code.
 
-Mật khẩu    user123
+**Bước 3:** Mở file `index.html` bằng trình duyệt hoặc sử dụng tiện ích Live Server.
 
-Đây là tài khoản dùng để trải nghiệm các chức năng của ứng dụng.
-7. Cơ chế hoạt động hiện tại
-Dữ liệu cảm biến được mô phỏng tự động sau mỗi 3 giây bằng JavaScript.
-Thông tin tài khoản và lịch sử hoạt động được lưu trữ bằng LocalStorage.
-Các thao tác điều khiển thiết bị hiện được xử lý trong ứng dụng web.
-Lưu ý: Phiên bản hiện tại chưa kết nối trực tiếp với phần cứng ESP8266 hoặc MQTT Broker. Để sử dụng dữ liệu cảm biến thực tế và điều khiển thiết bị vật lý, cần bổ sung hệ thống kết nối MQTT hoặc Backend phù hợp.
-8. Định hướng phát triển
-Tích hợp phần cứng ESP8266 / NodeMCU.
-Kết nối và thu thập dữ liệu cảm biến thực tế thông qua MQTT.
-Xây dựng Backend API và cơ sở dữ liệu.
-Nâng cấp hệ thống xác thực và phân quyền người dùng.
-Bổ sung chức năng giám sát thiết bị theo thời gian thực.
-Phát triển hệ thống thông báo khi có sự kiện bất thường.
-9. Giấy phép
-Dự án được phát hành theo giấy phép MIT License.
+## 6. Tài khoản trải nghiệm
+
+| Thông tin | Giá trị |
+|---|---|
+| Email | anh@smarthouse.local |
+| Mật khẩu | user123 |
+
+Đây là tài khoản demo phục vụ việc trải nghiệm ứng dụng.
+
+## 7. Cơ chế hoạt động
+
+- Dữ liệu cảm biến được mô phỏng tự động mỗi 3 giây bằng JavaScript.
+- Tài khoản và lịch sử thao tác được lưu trong LocalStorage.
+- Các thao tác điều khiển thiết bị hiện được xử lý trong ứng dụng web.
+
+**Lưu ý:** Phiên bản hiện tại chưa kết nối trực tiếp với ESP8266 hoặc MQTT Broker. Dữ liệu cảm biến hiện là dữ liệu mô phỏng, không phải dữ liệu thu thập từ phần cứng thực tế.
+
+## 8. Định hướng phát triển
+
+- Tích hợp ESP8266 / NodeMCU.
+- Kết nối cảm biến thực tế thông qua MQTT.
+- Xây dựng Backend API và cơ sở dữ liệu.
+- Hoàn thiện hệ thống phân quyền người dùng.
+- Bổ sung chức năng giám sát và thông báo theo thời gian thực.
+
+## 9. Giấy phép
+
+Dự án sử dụng giấy phép MIT License.
