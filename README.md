@@ -59,7 +59,21 @@
 - Hiển thị thông tin người dùng.
 - Quản lý thông tin tài khoản.
 
-## 3. Công nghệ sử dụng
+## 3. Thiết kế giao diện (Figma)
+
+Giao diện Smart House được thiết kế trên Figma với phong cách hiện đại, sử dụng tông màu xanh dương, trắng và xám nhạt.
+
+Bản thiết kế bao gồm 5 màn hình chính:
+
+- **Dashboard:** Tổng quan hệ thống và trạng thái thiết bị.
+- **Điều khiển thiết bị:** Quản lý và điều khiển các thiết bị điện.
+- **Dữ liệu cảm biến:** Theo dõi thông số môi trường.
+- **Lịch sử thao tác:** Theo dõi lịch sử hoạt động.
+- **Thông tin tài khoản:** Quản lý hồ sơ cá nhân.
+
+🔗 **[XEM THIẾT KẾ SMART HOUSE TRÊN FIGMA](https://www.figma.com/design/nbfeTWeuq0GmdO0Smngt63/Untitled?node-id=0-1&t=EVBU6OxrgY1ts32l-1)**
+
+## 4. Công nghệ sử dụng
 
 | Công nghệ | Vai trò |
 |---|---|
@@ -70,7 +84,7 @@
 | Canvas API | Hiển thị biểu đồ |
 | GitHub Pages | Triển khai website |
 
-## 4. Cấu trúc dự án
+## 5. Cấu trúc dự án
 
 ```text
 smart-house-iot/
@@ -87,7 +101,7 @@ smart-house-iot/
 └── .gitignore
 ```
 
-## 5. Hướng dẫn cài đặt
+## 6. Hướng dẫn cài đặt
 
 **Bước 1:** Sao chép mã nguồn:
 
@@ -99,7 +113,7 @@ git clone https://github.com/ducanh2909/smart-house-iot.git
 
 **Bước 3:** Mở file `index.html` bằng trình duyệt hoặc sử dụng tiện ích Live Server.
 
-## 6. Tài khoản trải nghiệm
+## 7. Tài khoản trải nghiệm
 
 | Thông tin | Giá trị |
 |---|---|
@@ -108,7 +122,7 @@ git clone https://github.com/ducanh2909/smart-house-iot.git
 
 Đây là tài khoản demo phục vụ việc trải nghiệm ứng dụng.
 
-## 7. Cơ chế hoạt động
+## 8. Cơ chế hoạt động
 
 - Dữ liệu cảm biến được mô phỏng tự động mỗi 3 giây bằng JavaScript.
 - Tài khoản và lịch sử thao tác được lưu trong LocalStorage.
@@ -116,7 +130,7 @@ git clone https://github.com/ducanh2909/smart-house-iot.git
 
 **Lưu ý:** Phiên bản hiện tại chưa kết nối trực tiếp với ESP8266 hoặc MQTT Broker. Dữ liệu cảm biến hiện là dữ liệu mô phỏng, không phải dữ liệu thu thập từ phần cứng thực tế.
 
-## 8. Định hướng phát triển
+## 9. Định hướng phát triển
 
 - Tích hợp ESP8266 / NodeMCU.
 - Kết nối cảm biến thực tế thông qua MQTT.
@@ -124,6 +138,6 @@ git clone https://github.com/ducanh2909/smart-house-iot.git
 - Hoàn thiện hệ thống phân quyền người dùng.
 - Bổ sung chức năng giám sát và thông báo theo thời gian thực.
 
-## 9. Giấy phép
+## 10. Giấy phép
 
 Dự án sử dụng giấy phép MIT License.
